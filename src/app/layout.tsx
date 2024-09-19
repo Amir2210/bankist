@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Bankist",
   description: "Bankist is the bank of the future",
+  icons: {
+    icon: '/favicon.svg'
+  }
 };
 
 export default function RootLayout({
