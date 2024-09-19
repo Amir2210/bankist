@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
   return (
-    <main className='h-screen overflow-y-hidden bg-gradient-to-b from-white to-purple-100 '>
+    <main className='h-screen overflow-y-hidden bg-gradient-to-b from-white to-purple-100'>
       <Header location={'register'} />
       <section className='flex flex-col justify-center items-center px-10'>
         <form className='sm:bg-white sm:px-11 py-8 rounded-lg sm:border-solid sm:border-y-4 sm:border-t-purple-400 sm:shadow-xl'>
@@ -25,6 +25,8 @@ function page() {
             <input type="text" className="grow" placeholder="Full name" name='fullName' required />
           </label>
           <button className='flex mx-auto capitalize my-3 py-1 bg-clip-text text-transparent gradient-bg text-3xl font-bold tracking-wide'>Register</button>
+          <button className='btn gradient-bg capitalize text-2xl w-full my-3 text-white border-none'>demo Login</button>
+
           <span className='text-lg'>Already a member? <Link className='capitalize bg-clip-text text-transparent gradient-bg  font-medium' href={'/logIn'}> Login</Link></span>
         </form>
       </section>
