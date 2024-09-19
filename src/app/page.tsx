@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 export default function Home() {
   return (
     <main className='h-screen overflow-y-hidden bg-gradient-to-b from-white to-purple-100'>
-      <Header />
+      <Header location={'main'} />
       <BackgroundBeamsWithCollisionDemo />
     </main>
   )
